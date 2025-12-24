@@ -1,4 +1,4 @@
-import type { RestaurantFormValues } from "../../types/restaurantFormTypes";
+import type { RestaurantFormValues } from "./restaurantFormTypes";
 
 
 // Field labels

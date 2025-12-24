@@ -6,7 +6,7 @@ import { useRestaurants } from "../../hooks/useRestaurants";
 import type { Restaurant } from "../../types/types";
 import MyButton from "../../components/button/MyButton";
 import "../../components/Button/Button.css";
-import RestaurantForm from "./RestaurantForm";
+import RestaurantForm from "./restaurantform/RestaurantForm";
 import MyCard from "../../components/cards/MyCard";
 import MyFilterinput from "../../components/filters/MyFilterinput";
 import MyFilterdropdown from "../../components/filters/MyFilterdropdown";
