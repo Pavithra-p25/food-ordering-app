@@ -1,5 +1,5 @@
 import { Row, Col } from "react-bootstrap";
-import MyTextarea from "../../../../components/textFields/MyTextarea";
+import MyTextarea from "../../../../components/newcomponents/textfields/MyTextarea";
 import MyInput from "../../../../components/textFields/MyInput";
 import {
   FIELD_LABELS,

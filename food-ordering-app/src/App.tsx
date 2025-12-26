@@ -8,7 +8,7 @@ import Footer from "./layouts/Footer";
 import { FilterProvider } from "./context/FilterContext";
 import RestaurantsPage from "./pages/restaurant/RestaurantList";
 import RestaurantDetails from "./pages/restaurant/RestaurantDetails";
-import ReactHookForm from "./pages/restaurant/reactHookForm";
+
 
 const App: React.FC = () => {
   return (
@@ -25,7 +25,7 @@ const App: React.FC = () => {
             {/* MAIN CONTENT  */}
             <main className="flex-grow-1 pt-5">
               <Routes>
-<Route path="/rhf" element={<ReactHookForm/>}/>
+
                 <Route path="/restaurants" element={<RestaurantsPage />} />
                 <Route path="/restaurants/:id" element={<RestaurantDetails />} /> {/* Dynamic route for restaurant details */}
               </Routes>
